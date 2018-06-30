@@ -1,0 +1,277 @@
+最外层盒子开始
+.wei{
+	width: 100%;
+	height: ;
+}
+.wei1{
+	width: 100%;
+	height: 100%;
+}
+.weia{
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+.wei .wei1 .weia{
+	text-align: center;
+	margin-top: 80px;
+}
+/*头部标题属性*/
+.weia p{
+	margin-top: 16px;
+	color: #828282;
+	font-size: 16px;
+	line-height: 32px;
+	margin-bottom: 46px;	
+}
+/*第一部分左边内容开始*/
+.wei_left{
+	width: 776px;
+	height: ;
+}
+/*左边文字开始*/
+.wei_left p{
+	font-size: 16px;
+	color: #434444;
+	line-height: 32px;
+	margin-left: 100px;
+}
+.wei_left p span{
+	color: #2b78d9;
+}
+.wei_lefta{
+	margin-left: 150px;
+}
+/*图片点击旋转特效*/
+.wei_lefta ul li img{
+	-webkit-animation:;
+}
+.wei_lefta ul li img:hover{
+-webkit-animation:change 2s infinite;}
+.wei_lefta ul li{
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+/*第一部分右边内容开始*/
+.wei_right img{
+	position: relative;
+	z-index: 99;
+	margin-top:-165px ;
+	margin-right: 80px;
+}
+
+/*第二部分开始*/
+.wei2{
+	margin-top: 300px;
+	height: 800px;
+}
+/*第二部分头部开始*/
+.wei2 h1{
+	font-size: 35px;
+	color: #f66c00;
+	margin-bottom: 20px;
+	text-align: center;
+}
+/*主体部分开始*/
+.wei2_up img{
+	margin-left: 35px;
+}
+
+/*第三部分开始*/
+.wei3{
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+}
+/*first开始*/
+.wei3_first{
+	width: 1200px;
+	height: 199px;
+	margin-top: 150px;
+	margin-left: 105px;
+}
+.wei3_first ul li{
+	width: 230px;
+	float: left;
+}
+/*图片旋转特效开始*/
+.wei3_first ul li img{	
+	width: 84px;
+	height: 94px;
+	text-align: center;
+	margin-right: 136px;
+	-webkit-animation:;
+}
+@-webkit-keyframes change
+{
+　　 from{-webkit-transform:rotate(0deg);}     
+    to{-webkit-transform:rotate(360deg);}   
+}
+.wei3_first ul li img:hover{
+	-webkit-animation:change 2s infinite;
+}
+.wei3_first ul li p{
+	font-size: 18px;
+	color: #2B78D9;
+	line-height: 32px;
+	
+}
+/*second开始*/
+.wei3_second{
+	width: 1200px;
+	height: 199px;
+	margin-left: 105px;
+}
+.wei3_second ul li{
+	width: 230px;
+	float: left;
+}
+/*图片点击旋转特效*/
+.wei3_second ul li img{	
+	width: 84px;
+	height: 94px;
+	text-align: center;
+	margin-right: 136px;
+	margin-bottom: 32px;
+}
+@-webkit-keyframes change
+{
+　　 from{-webkit-transform:rotate(0deg);}     
+    to{-webkit-transform:rotate(360deg);}   
+}
+.wei3_second ul li img:hover{
+	-webkit-animation:change 2s infinite;
+}
+/*文字属性*/
+.wei3_second ul li p{
+	font-size: 18px;
+	color: #2B78D9;
+	line-height: 32px;
+	padding-top: 0px;	
+}
+/*third开始*/
+.wei3_third{
+	width: 1200px;
+	height: 199px;
+	margin-top: 60px;
+	margin-left: 105px;
+}
+
+.wei3_third ul li{
+	width: 230px;
+	float: left;
+}
+.wei3_third ul li img{
+	width: 64px;
+	height: 94px;	
+	text-align: center;
+	margin-right: 136px;
+	margin-bottom: 32px;
+}
+/*点击旋转特效开始*/
+@-webkit-keyframes change
+{
+　　 from{-webkit-transform:rotate(0deg);}     
+    to{-webkit-transform:rotate(360deg);}   
+}
+.wei3_third ul li img:hover{
+	-webkit-animation:change 2s infinite;
+}
+.wei3_third ul li p{
+	font-size: 18px;
+	color: #2B78D9;
+	line-height: 32px;
+}
+/*第四部分开始*/
+.wei4{
+	width: 100%;
+	margin-top: 85px;
+	margin-bottom: 88px;
+}
+.wei4 h1{
+	font-size: 35px;
+	color: #f66c00;
+	margin-top: 35px;
+	margin-bottom: 63px;	
+	text-align: center;
+}
+/*左边部分开始*/
+.wei4_left{
+	font-size: 18px;
+	text-align: center;
+	margin-left: 70px;
+	width: 425px;
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	color: #FFFFFF;		
+}
+.wei4_left ol li p{
+	margin-top: 50px;
+}
+/*中间部分开始*/
+.wei4_middle{
+	width: 100%;
+}
+.wei4_middle .t1{
+	margin-top: 134px;
+	float: left;
+	margin-left: 15px;
+}
+.wei4_middle .t2{
+	width: 322px;
+	margin-top: 66px;
+	margin-left: 50px;
+	background-repeat: no-repeat;
+	float: left;
+}
+/*右边部分开始*/
+.wei4_right{
+	width: 100%;
+	position: relative;
+	right: 200px;
+	top: 50px;
+	margin-bottom: 200px;
+}
+.wei4_right ul li{
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+}
+.wei4_right ul li p span{
+	font-size: 25px;
+	color: #FFFFFF;
+	text-align: center;
+	width: 63px;
+	height: 63px;
+	background-color: #F66C00;
+	border: 4px solid #F66C00;
+	float: left;	
+}
+/*鼠标点击变色*/
+.wei4_right ul li p span:hover{
+	background-color: #FFFFFF;
+	color: #F66C00;
+}
+.wei4_right ul li p{
+	font-size: 18px;
+	color: dimgray;
+	
+}
+.wei4_right ul li p:hover{
+	color: #F66C00;
+}
+
+
+
+
+
+
+
+
+
+
+
+

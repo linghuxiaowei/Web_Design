@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>锦瑟微醺</title>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" href="css/top.css" />
+	
+	    <script type="text/javascript">
+			function show(name){
+				//第一步:获取要显示的菜单
+			var menu1 = document.getElementById(name);
+				//第二步：控制菜单显示
+			menu1.style.display="block";
+			}
+			function hide(name){
+				//第一步:获取要显示的菜单
+			var menu1 = document.getElementById(name);
+				//第二步：控制菜单隐藏
+			menu1.style.display="none";
+			}
+		</script>
+	</head>
+	<body>
+		<div class="cbox">
+		<!--头部开始-->
+		<div class="chead">
+			<!--logo开始-->
+			<div class="wab">
+			     <img src="img/logo.png" />
+			     <h1>锦瑟微醺</h1>
+			     <p>
+				<img src="img/tel.png" />
+				<span>888888</span>
+			    </p>
+			</div>
+			<!--logo结束-->
+		    <!--第一个菜单开始-->
+		<div class="cmenu">
+			<!--横排菜单开始-->
+			<div class="nav">
+					<ul>
+						<li><a href="javascript:void(0)">首页</a></li>   
+						<li onmouseover="show('hide_menu1')" onmouseout="hide('hide_menu1')"><a href="javascript:void(0)">网站建设</a></li>
+						<li onmouseover="show('hide_menu2')" onmouseout="hide('hide_menu2')"><a href="javascript:void(0)">移动端建设</a></li>
+						<li><a href="javascript:void(0)">综合业务</a></li>
+						<li><a href="javascript:void(0)">狮问论坛</a></li>
+						<li><a href="javascript:void(0)">联系我们</a></li>
+					</ul>
+			</div>
+			<!--横排菜单结束-->
+			<!--下拉菜单一开始-->
+			<div onmouseover="show('hide_menu1')" onmouseout="hide('hide_menu1')" class="hide_menu" id="hide_menu1">
+			 
+			 <ul>	
+			  <li class="li1">
+                        <a href="#">网站建设</a>
+                        <div class="li1_img">
+                            <a href="#">
+                            <img src="img/2_7.png" />
+                            </a>
+                        </div>
+			  </li>
+		 
+			  <li class="li1">
+			  	 <a href="#">全网营销网站</a>
+                        <div class="li1_img">
+                            <a href="#">
+                           <img src="img/2_033.png" />
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li1">
+			  	 <a href="#">高端设计网站</a>
+                        <div class="li1_img">
+                            <a href="#">
+                           <img src="img/2_3_03.png"/>
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li1">
+			  	 <a href="#">企业展示网站</a>
+                        <div class="li1_img">
+                            <a href="#">
+                           <img src="img/qiye_dt.jpg" />
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li1">
+			  	 <a href="#">购物商城网站</a>
+                        <div class="li1_img">
+                            <a href="#">
+                           <img src="img/2_5.png" />
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li1">
+			  	 <a href="#">外贸网站</a>
+                        <div class="li1_img">
+                            <a href="#">
+                           <img src="img/waimao_dt.png" />
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li1">
+			  	 <a href="#">网站改版</a>
+                        <div class="li1_img">
+                            <a href="#">
+                           <img src="img/2_73.png"/>
+                            </a>
+                        </div>
+			  </li>
+			  </ul>
+		    </div>
+		    <!--下拉菜单一结束-->
+		    <!--下拉菜单开始-->
+		    <div onmouseover="show('hide_menu2')" onmouseout="hide('hide_menu2')" class="hide_menu" id="hide_menu2">
+		              
+		              
+		              
+		       <ul class="cs2">	
+			  <li class="li2">
+                        <a href="#">响应式网站</a>
+                        <div class="li2_img">
+                            <a href="#">
+                            <img src="img/2_023.png" />
+                            </a>
+                        </div>
+			  </li>
+		 
+			  <li class="li2">
+			  	 <a href="#">手机网站</a>
+                        <div class="li2_img">
+                            <a href="#">
+                           <img src="img/mobile_dt.png" />
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li2">
+			  	 <a href="#">微信网站</a>
+                        <div class="li2_img">
+                            <a href="#">
+                           <img src="img/2_05_05.png" />
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li2">
+			  	 <a href="#">微信小程序</a>
+                        <div class="li2_img">
+                            <a href="#">
+                           <img src="img/2_05_05-.png" />
+                            </a>
+                        </div>
+			  </li>
+			  
+			  <li class="li2">
+			  	 <a href="#">APP制作</a>
+                        <div class="li2_img">
+                            <a href="#">
+                           <img src="img/mobile_dt1.png" />
+                            </a>
+                        </div>
+			  </li>         
+		     </div>
+             <!--下拉菜单二介结束-->
+		</div>
+		<!--第一个菜单结束-->
+		<!--大图开始-->
+		<div class="ccont">
+			<img src="img/bdtg_banner.jpg"/>
+		</div>
+		<!--大图结束-->
+		<!--第二个菜单开始-->
+		<div class="cmenu1">
+			<div class="cmenu1-wab">
+				
+			<ul>
+            <li <!--class="active"-->
+                <a href="/zt/website/">网站建设</a>
+            </li>
+            <li>
+                <a href="/zt/website02/">全网营销网站</a>
+            </li>
+            <li>
+                <a href="/zt/website03/">高端设计网站</a>
+            </li>
+            <li>
+                <a href="/zt/website04/">企业展示网站</a>
+            </li>
+            <li>
+                <a href="/zt/website05/">购物商城网站</a>
+            </li>
+            <li>
+                <a href="/zt/website06/">外贸网站</a>
+            </li>
+            <li>
+                <a href="/zt/website07/">网站改版</a>
+            </li>
+        </ul>
+           <div class="fk ra">
+           <img src="img/gy_05.png" />
+           <a href="#">返回首页</a>
+            </div>
+			</div>
+		</div>
+		<!--第二个菜单结束-->
+		</div>
+		<!--头部结束-->
+		</div>
+		<!--大盒子结束-->
+		
+	</body>
+</html>

@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+.fa{
+	float: left;
+}
+.ra{
+	float: right;
+}
+.ca{
+	clear: both;
+}
+/*滚动图片样式开始*/
+
+.slideBox {
+	width: 1104px;
+	height: 238px;
+	overflow: hidden;
+	position: relative;
+	/*border: 1px solid #ddd;*/
+}
+.slideBox .bd img {
+	width: 1104px;
+	height: 238px;
+	display: block;
+}
+.slideBox .hd {
+	height: 15px;
+	overflow: hidden;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	z-index: 1;
+}
+
+.slideBox .hd ul {
+	overflow: hidden;
+	zoom: 1;
+	float: left;
+}
+
+.slideBox .hd ul li {
+	float: left;
+	margin-right: 2px;
+	width: 15px;
+	font-size: 12px;
+	height: 15px;
+	line-height: 14px;
+	text-align: center;
+	background: #fff;
+	cursor: pointer;
+}
+
+.slideBox .hd ul li.on {
+	background: #f00;
+	color: #fff;
+}
+
+.slideBox .bd {
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+
+.slideBox .bd li {
+	zoom: 1;
+	vertical-align: middle;
+}
+
+/*背景色定义*/
+.bg0{
+	background-color: white;
+}
+.bg1{
+	background-color: aqua;
+}
+.bg2{
+	background-color: aquamarine;
+}
+.bg3{
+	background-color: beige;
+}
+.bg4{
+	background-color: bisque;
+}
+.bg5{
+	background-color: blueviolet;
+}
+.bg6{
+	background-color: brown;
+}
+.bg7{
+	background-color: #00FFFF;
+}
+.bg8{
+	background-color: #50a3d5;
+}
+.bg9{
+	background-color: #e4a242;
+}
+.bg10{
+	background-color:#1a8c8d;
+}
+.bg11{
+	background-color: #8c2328;
+}

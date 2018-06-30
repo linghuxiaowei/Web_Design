@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!--引入全局样式-->
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<!--引入首页样式-->
+		<link rel="stylesheet" type="text/css" href="css/foot.css"/>		
+	</head>
+	<body>
+			<!--底部s-->
+			<div class="zfooter">
+				<div class="zwrap">
+					<p>
+						<img src="img/erweima.jpg" />
+						<span>锦绣微醺|服务咨询助理</span>
+						<i>—&nbsp;&nbsp;&nbsp;服务热线&nbsp;&nbsp;&nbsp;—</i>
+						<b>888888 非诚勿扰</b>
+					</p>
+					<div class="zelement">
+					<dl>
+						<dt>西安工业大学锦绣微醺设计小组</dt>
+						<dd>所在地址：西安工业大学未央校区</dd>
+						<dd>反馈邮箱：xatu@qq.com</dd>
+						<dd>未央区 锦绣微醺 版权所有 Copyright © 2017 jinxiuweixun.All rights reserved</dd>
+					</dl>	
+					</div>
+			        <div class="zforms">
+						<form action="/plus/diy.php" enctype="multipart/form-data" method="post" onsubmit="return tijiao()">
+			                <input type="hidden" name="action" value="post" />
+			                <input type="hidden" name="diyid" value="1" />
+			                <input type="hidden" name="do" value="2" />
+        	                <input name="name" type="text" value="您的姓名" id="name" onfocus="if(this.value=='您的姓名'){this.value='';}"  onblur="if(this.value==''){this.value='您的姓名';}"/>
+                            <input name="tel" type="text" value="您的电话" id="tel" onfocus="if(this.value=='您的电话'){this.value='';}"  onblur="if(this.value==''){this.value='您的电话';}"/>
+                            <input name="qq" type="address" value="您的QQ" onfocus="if(this.value=='您的QQ'){this.value='';}"  onblur="if(this.value==''){this.value='您的QQ';}"/>
+                            <button name="button" type="submit" />申请预约建站</button>
+                            <input type="hidden" name="dede_fields" value="name,text;tel,text;qq,text" />
+			                <input type="hidden" name="dede_fieldshash" value="01a872e1dff424d938dfb9d5557a50ff" />
+        	            </form>
+					</div>
+				</div>
+			</div>
+			<!--底部e-->
+	</body>
+</html>
